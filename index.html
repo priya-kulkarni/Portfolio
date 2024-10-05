@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="right">
+                <img src="https://static.vecteezy.com/system/resources/previews/010/519/639/original/a-girl-using-laptop-cartoon-character-free-vector.jpg" alt="About Image" width="300">
+            </div>
+            <div class="left">
+                <div class="fade-in-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Priya,I'm a engineering student specialized in Computer Science and Engineering.
+                        Along with my degree, I know java,python,Machine learning,html,css and javascript.
+                        I am currently seeking roles where I can utilize my experience and skill.</p>
+                    <a href="https://drive.google.com/file/d/1hn5CbyOj9ddGnAwUjGKwujW-0otc6f1n/view?usp=sharing" class="abtbtn-box" target="_blank">Download Resume</a>
+                </div>                  
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="C:\Users\Dell-Pc\Pictures\Screenshot 2024-10-02 143413.png" alt="Screenshot of GitHub Aggregator Project">
+                    <h3>GitHub Aggregator</h3>
+                    <p>Streamlined the collection and analysis of data from multiple GitHub repositories...</p>
+                </div>
+                <div class="item">
+                    <img src="https://daxg39y63pxwu.cloudfront.net/images/blog/facial-emotion-recognition-project-using-cnn-with-source-code/Face_Emotion_Recognition_Project.webp" alt="Facial Expression Recognition Project">
+                    <h3>Facial Expression Recognition</h3>
+                    <p>Real-time face capture and emotion recognition using a web-cam and deep learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+       <p>&copy; 2024 Priya. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

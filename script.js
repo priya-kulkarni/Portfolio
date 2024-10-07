@@ -1,4 +1,3 @@
-// Smooth Scroll for navigation links
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -11,7 +10,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Form validation for the contact form
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;

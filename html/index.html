@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="right">
+                <img src="https://static.vecteezy.com/system/resources/previews/010/519/639/original/a-girl-using-laptop-cartoon-character-free-vector.jpg" alt="About Image" width="300">
+            </div>
+            <div class="left">
+                <div class="fade-in-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Priya,I'm a engineering student specialized in Computer Science and Engineering.
+                        Along with my degree, I know java,python,Machine learning,html,css and javascript.
+                        I am currently seeking roles where I can utilize my experience and skill.</p>
+                    <a href="https://drive.google.com/file/d/1hn5CbyOj9ddGnAwUjGKwujW-0otc6f1n/view?usp=sharing" class="abtbtn-box" target="_blank">Download Resume</a>
+                </div>                  
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6frj3V2bXDB2xFCdG_mtdO2BqHjF7LtvSQ&s" alt="Java" width="100" height="100">
+                    <h3>Java</h3>
+                    <p>Proficient in Java programming language.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/08/Python-Emblem.jpg" alt="Python" width="100" height="100">
+                    <h3>Python</h3>
+                    <p>Experienced in Python for machine learning and data analysis.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://static.vecteezy.com/system/resources/previews/013/313/458/non_2x/html-icon-3d-rendering-illustration-vector.jpg" alt="HTML" width="100" height="100">
+                    <h3>HTML</h3>
+                    <p>Proficient in HTML for structuring web pages.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://w7.pngwing.com/pngs/224/77/png-transparent-website-web-internet-css-style-css3-technology-social-media-logos-i-flat-colorful-icon.png" alt="CSS" width="100" height="100">
+                    <h3>CSS</h3>
+                    <p>Skilled in designing responsive websites using CSS.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://banner2.cleanpng.com/20180809/ksy/b657cdbe6e42c7aa4f7b21a79ffd4a41.webp" alt="JavaScript" width="100" height="100">
+                    <h3>JavaScript</h3>
+                    <p>Proficient in JavaScript for web development and interactivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="portfolio">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="./Screenshot 2024-10-02 143413.png" alt="Screenshot of GitHub Aggregator Project">
+                    <h3>GitHub Aggregator</h3>
+                    <p>Streamlined the collection and analysis of data from multiple GitHub repositories...</p>
+                </div>
+                <div class="item">
+                    <img src="https://daxg39y63pxwu.cloudfront.net/images/blog/facial-emotion-recognition-project-using-cnn-with-source-code/Face_Emotion_Recognition_Project.webp" alt="Facial Expression Recognition Project">
+                    <h3>Facial Expression Recognition</h3>
+                    <p>Real-time face capture and emotion recognition using a web-cam and deep learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm" action="https://formspree.io/f/mnnqalqz" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" onclick="submitForm()">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/priya-a-kulkarni-0a766527a" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Linkdin" width="50" height="50"></a>
+                <a href="https://github.com/priya-kulkarni" target="_blank"><img src="https://as2.ftcdn.net/v2/jpg/02/50/30/59/1000_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg" alt="Linkdin" width="50" height="50"></a>
+                <p>&copy; 2024 Priya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
